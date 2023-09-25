@@ -1,0 +1,96 @@
+body{
+    background: #575757;
+}
+
+h1{
+    color: #ff0;
+}
+
+.contenedor{
+    width: 1520px;
+    border: 1px solid #f00;
+    margin-top: 15px;
+    display: flex;
+}
+
+.contenedor > div > img{
+    text-align: center;
+    width: 140px;
+    margin: 4px;
+    flex-direction: column;
+}
+
+/*.contenedor > div{
+    text-align: center;
+    width: 50px;
+    height: 280px;
+    margin: 4px;
+    flex-direction: column;
+}
+
+#caja1{
+    flex-direction: row;
+}*/
+
+#a{
+    filter: none;
+}
+#b{
+    filter: blur(2px);
+}
+#c{
+    filter: brightness(0.4);
+}
+#d{
+    filter: contrast(200%);
+}
+#e{
+    filter: grayscale(100%);
+}
+#f{
+    filter: hue-rotate(90deg);
+}
+#g{
+    filter: invert(75%);
+}
+#h{
+    filter: opacity(25%)
+}
+#i{
+    filter: saturate(200%);
+}
+#j{
+    filter: sepia(100%);
+}
+
+
+#k{
+    filter: none;
+}
+#l{
+    filter: blur(2px);
+}
+#m{
+    filter: brightness(0.4);
+}
+#n{
+    filter: contrast(200%);
+}
+#o{
+    filter: grayscale(100%);
+}
+#p{
+    filter: hue-rotate(90deg);
+}
+#q{
+    filter: invert(75%);
+}
+#r{
+    filter: opacity(25%)
+}
+#s{
+    filter: saturate(200%);
+}
+#t{
+    filter: sepia(100%);
+}
